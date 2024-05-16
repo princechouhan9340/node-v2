@@ -21,6 +21,6 @@ describe('CalcController (e2e)', () => {
       .post('/calc')
       .send({ expression: '1+2*3' })
       .expect(201)
-      .expect({ result: 9 });
+      .expect({ result: 7 });
   });
 });
